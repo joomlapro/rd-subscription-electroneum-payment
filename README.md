@@ -1,0 +1,1 @@
+Selling software with RD-Subscription for Joomla CMS? Would you like to join the revolution of digital money with Electroneum? This plugin enables you to offer Electroneum payments very easily. Read more about RD Subscription for Joomla: https://rd-media.org/joomla-subscriptions-management.html
