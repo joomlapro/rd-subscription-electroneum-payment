@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="plugin" group="rdmedia_payment" method="upgrade">
+	<name>RD Subscription Electroneum Payment Plugin</name>
+	<author>Claes Norin</author>
+	<creationDate>NOV 2018</creationDate>
+    <copyright>Copyright (C) 2014. All rights reserved.</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <author>Claes Norin</author>
+    <authorEmail>support@joomlapro.com</authorEmail>
+    <authorUrl>http://joomlapro.com</authorUrl>
+    <version>1.0</version>
+	 <description>
+   		 <![CDATA[<html>
+			<table class="table">
+			   <tr><td><a href="http://joomlapro.com" target="_blank"><img src="http://joomlapro.com/images/logo1.png"></a></td><td><h3>Electroneum Payment For Rdsubs plugin is downloaded from joomlapro.com.</h3><hr>We have built quality Joomla extension since 2012. JoomlaPro is a company under <a href="http://joomlaproffs.se/" target="_blank">joomlaproffs.se</a></td>
+			   </tr>
+			   <tr>
+			   <td colspan="2" style="text-align:right; padding:10px 0 0 0; border-bottom:0px none">
+			   <a href="http://joomlaproffs.se/" target="_blank"><img src="http://joomlapro.com/images/logo2.png"></a>
+			   </td>
+			   </tr>
+		   </table>
+		     ]]>
+    </description>
+		<files>
+			<filename plugin="electroneum">electroneum.php</filename>
+			<folder>src</folder>
+			<folder>helpers</folder>
+		</files>
+	<languages>
+
+	</languages>
+	<config name="params">
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="plugin_name" type="text" default="Electroneum Payment" label="Electroneum Payment" description="Electroneum Payment"/>
+				<field type="text" name="apikey" default="" class="input-large" size="55" label="API Key" description="API Key"/>
+				<field type="text" name="secret" default="" class="input-large" size="55" label="API Secret" description="API Secret"/>
+				<field type="text" name="outlet" default="" class="input-large" size="55" label="Outlet ID" description="Vendor Id"/>
+				<field type="text" name="currency" default="EUR" class="input-large" size="55" label="Currency Code" description="Currenc code" />
+				
+			</fieldset>
+		</fields>
+	</config>
+
+</extension>
